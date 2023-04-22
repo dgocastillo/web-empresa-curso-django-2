@@ -1,0 +1,31 @@
+{% extends 'core/base.html' %}
+
+<!--Bloque de titulo de la pagina-->
+{% block title %}Contacto{% endblock %}
+
+<!--Bloque de imagen de fondo-->
+{% block background %}{% load static %}{% static 'core/img/contact-bg2.jpg' %}{% endblock %}
+
+
+<!--Bloque de titulos-->
+{% block headers %}
+<h1>Contacto</h1>
+    <span class="subheading">Contáctame para mayor información</span>            
+{% endblock %}
+
+
+<!--Bloque de contenido-->
+{% block content %}
+<div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+        <p>Para mayor información, te interesa que te ayude a crear una página web para tu negocio, o te interesan mis cursos sobre Automatización Industrial, no dudes en contactarme.</p>
+        <br>
+        <p><b>E-mail:</b> diego.castillo@dccontrolservices.com</p>
+        <p><b>Honorarios:</b> 60€/h (precio base)</p>
+    </div>
+</div>
+{% endblock %}
+
+
+
+

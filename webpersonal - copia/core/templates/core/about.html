@@ -1,0 +1,32 @@
+{% extends 'core/base.html' %}
+
+<!--Bloque de titulo de la pagina-->
+{% block title %}Acerca de{% endblock %}
+
+
+<!--Bloque de imagen de fondo-->
+{% block background %}{% load static %}{% static 'core/img/about-bg.jpg' %}{% endblock %}
+
+<!--Bloque de titulos-->
+{% block headers %}
+<h1>Acerca de</h1>
+<span class="subheading">Soy Diego Castillo y soy programador de PLC y Python</span>            
+{% endblock %}
+
+<!--Bloque de contenidos-->
+{% block content %}
+<div class="row">
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+        <img class="img-fluid avatar" src="{% static 'core/img/avatar.png' %}"  alt="">
+    </div>
+    <div class="col-lg-7 col-md-8">
+        <h2 class="section-heading">Diego Castillo</h2>   
+        <p>Soy Diego Castillo y soy Ingeniero programador de PLC y programador Web, me apasiona la enseñanza a través de internet, así como ayudar a personas en la creación de sus sitios web y brindarles mis conocimientos en Automatización Industrial.</p>
+    </div>
+</div>
+{% endblock %}
+
+
+
+
+
